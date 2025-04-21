@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+/* -----------------------------NAVBER------------------------- */
+
+.navber{
+    display: flex;
+    padding: 20px 100px;
+    justify-content: space-between;
+    align-items: center;
+    background: #f1f1f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.568);
+    position: sticky;
+    top: 0px;
+    z-index: 50;
+    width: 100%;
+}
+.logo{
+    font-size: 24px;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+.nav_list{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav_item {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: .88rem;
+    color: black;
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: all .40s;
+    border-radius: 20px;
+}
+.nav_item:hover{
+  color: #f1f1f1;
+  background: #000;
+  border-radius: 20px;
+}
+.nav_icons_div{
+    display: none;
+}
+
+/* -----------------------------HERO------------------------- */
+
+.hero{
+    height: 80vh;
+    position: relative;
+
+}
+.hero_content{
+    display: flex;
+    width: 100vw;
+    background: #000;
+    height: 80vh;
+    overflow: hidden;
+}
+
+
+.swiper-1{
+    background-color: #EFEFEF; 
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+    padding: 0px 0px 0px 100px;
+}
+.swiper-2{
+    background-color: #EEEEF8; 
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+    padding: 0px 0px 0px 100px;
+}
+.swiper-3{
+    background-color: #E5D1DD; 
+    display: flex;
+    justify-content: space-between; 
+    height: 100%;
+    padding: 0px 0px 0px 100px;
+
+}
+.hero-image{
+    width: 100%;
+    height: 100%;
+}
+.left-hero{
+    width: 50%;
+    padding: 100px 0px 0px 0px;
+}
+.hero-page{
+    font: 1em sans-serif;
+    
+}
+.hero-title{
+    padding-top: 10px;
+    font-size: 3.1rem;
+    font-weight: 900;
+    font-family: "Special Gothic Expanded One", sans-serif;
+}
+.hero-discreption{
+    font-size: 1rem;
+    font-family: "Open Sans", sans-serif;
+    color: #6d6d6d;
+    padding-top: 10px;
+}
+
+
+
+/* -----------------------------cart------------------------- */
+.cart{
+    padding: 20px 100px;
+}
+.cart-header{
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cart-box{
+    background-color: #F7F7F7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    border-radius: 20px;
+}
+.cart-image{
+    width: 100%;
+    height: 230px;
+    border-radius: 20px;
+}
+.cart-title{
+    font-size: 1.5rem;
+    padding-top: 10px;
+    font-family: sans-serif;
+}
+.cart-size-xyz{
+    display: flex;
+    gap: 5px;
+    padding-top: 10px;
+}
+.cart-name{
+    background: #ffffff;
+    padding: 5px 20px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+.btn{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #969696;
+
+}
+
+.title{
+  font-size: 2rem;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  
+}
+
+
+/* -----------------------------Best Sellers----------------------------- */
+
+/* -----------------------------next page----------------------------- */
+
+.next-page-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0 0 100px ;
+  background: #DFFF03;
+}
+
+.next-page-h1{
+  font-size: 5vw;
+  padding: 50px 0;
+  font-family: "Open Sans", sans-serif;
+}
+.next-page-icon-box {
+  background: #ffffff;
+  cursor: pointer;
+  border-radius:50% ;
+  padding: 30px;
+}
+.next-page-icon-box:hover{
+  background: #969696;
+}
+.next-page-box{
+  background: #000;
+  padding: 20px 50px 0px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.next-page-icon-box img {
+  width: 50px;
+
+}
+
+
+/* -----------------------------footer------------------------- */
+footer{
+  background: #DFFF03;
+
+}
+.footer-content{
+  background: linear-gradient(42deg,rgba(10, 0, 71, 1) 0%, rgba(32, 0, 46, 1) 50%, rgba(61, 0, 0, 1) 100%);
+  height: 82vh;
+  border-radius: 100px 10px 0 0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 50px 100px;
+}
+.footer-top{
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.footer-box{
+  /* background: #ff9090; */
+  width: 400px;
+  height: 400px;
+}
+.footer-doc{
+  font-family: "Open Sans", sans-serif;
+  font-size: 1vw;
+  padding:30px 30px 0px 0px;
+}
+
+.footer-title{
+  padding-top: 12px;
+  font-size: 1.2vw;
+  font-family: sans-serif;
+}
+.footer-email{
+  text-decoration: underline;
+  padding-top: 50px;
+  font-size: 1vw;
+  font-family: sans-serif;
+}
+.footer-number{
+  padding-top: 50px;
+  font-size: 1vw;
+  font-family: sans-serif;
+}
+.footer-ul{
+  list-style: none;
+  padding-top: 30px;
+  font-family: sans-serif;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+.footer-link{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-bottam{
+  padding-top: 50px;
+  border-top: solid 1px #EEEEF8;
+}
+.footer-bottam p {
+  text-align: center;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+@media (max-width: 992px) {
+    .navber {
+      padding: 20px 30px;
+    }
+  
+    .hero {
+      height: auto;
+    }
+  
+    .hero_content {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-hero {
+      width: 100%;
+      padding: 50px ;
+      text-align: center;
+    }
+  
+    .hero-title {
+      font-size: 2.5rem;
+    }
+  
+    .swiper-1, .swiper-2, .swiper-3 {
+      padding: 0 30px;
+      flex-direction: column;
+    }
+  
+    .hero-image {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+  
+    .cart {
+      padding: 20px 30px;
+    }
+  
+    .cart-header {
+      gap: 20px;
+      justify-content: center;
+    }
+  
+    .cart-box {
+      width: 280px;
+      height: 380px;
+    }
+    .footer-content{
+      background: linear-gradient(42deg,rgba(10, 0, 71, 1) 0%, rgba(32, 0, 46, 1) 50%, rgba(61, 0, 0, 1) 100%);
+      height: 100%;
+
+    }
+    .footer-content{
+      padding: 100px 30px;
+    }
+    .footer-box{
+      /* background: #ff9090; */
+      width: 100%;
+      height: 100%;
+    }
+    .footer-doc{
+      font-size: 4vw;
+    }
+    .footer-title{
+      padding-top: 12px;
+      font-size: 5vw;
+    }
+
+    .footer-top{
+      flex-direction: column;
+      gap: 25px;
+    }
+    .footer-email{
+
+      font-size: 4vw;
+
+    }
+    .footer-number{
+      font-size: 4vw;
+
+    }
+    .footer-bottam{
+      margin-top: 10px;
+    }
+
+  }
+  
+  @media (max-width: 600px) {
+    .navber {
+      padding-top: 20px ;
+    }
+  
+    .nav_list {
+      display: none;
+    }
+  
+    #IconLeft, #Iconright {
+      display: none;
+    }
+  
+    .nav_icons_div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: #bc61e094;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  
+    .nav_icons_div:hover {
+      background: #bc61e0dc;
+    }
+  
+    .nav_icons {
+      width: 35px;
+    }
+  
+    .hero {
+      height: auto;
+    }
+  
+    .hero_content {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .left-hero {
+      width: 100%;
+      padding: 30px 20px 
+      text-align: center;
+    }
+  
+    .hero-title {
+      font-size: 2rem;
+    }
+  
+    .hero-discreption {
+      font-size: 0.9rem;
+    }
+  
+    .swiper-1, .swiper-2, .swiper-3 {
+      padding: 0 20px;
+      flex-direction: column;
+    }
+  
+    .hero-image {
+      width: 100%;
+      height: 250px;
+      object-fit: cover;
+    }
+  
+    .cart {
+      padding: 20px 20px;
+    }
+  
+    .cart-header {
+      gap: 15px;
+      justify-content: center;
+    }
+  
+    .cart-box {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+    }
+  
+    .cart-image {
+      height: 200px;
+    }
+  
+    .cart-title {
+      font-size: 1.3rem;
+    }
+  
+    .btn {
+      padding: 8px 18px;
+      font-size: 14px;
+    }
+    .next-page-content{
+      padding: 0px 0 0 20px ;
+    }
+    .next-page-h1{
+      font-size: 7vw;
+    }
+  }
