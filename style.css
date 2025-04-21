@@ -257,6 +257,7 @@ footer{
   padding-top: 12px;
   font-size: 1.2vw;
   font-family: sans-serif;
+  text-decoration: underline;
 }
 .footer-email{
   text-decoration: underline;
